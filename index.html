@@ -11,9 +11,10 @@
 <body><!--</body> style="color:greenyellow">-->
     <div class="container"> 
 <!--body backgound="http://i0.kym-cdn.com/entries/icons/original/000/001/299/change1.jpg"-->
-        <div class="row">
-            <h1>The Truth is Out There</h1>
-        </div>         
+        <div class="container"> 
+            <div class="row">
+                <h1 class="text-center" style="color:greenyellow">The Truth is Out There</h1>
+            </div>         
             <div class="row">
                 <form class="form-inline">
                     <div class="form-group col-md-2">
@@ -31,18 +32,19 @@
                     <div class="form-group col-md-2">
                         <input type="text" class="form-control" id="shape" placeholder="shape">
                     </div>
-                    <div class="col-md-2">
-                        <button type="submit" class="btn btn-default" id="searchBtn">Are you ready for the truth?</button>
+                    <div class=" form-group col-md-2">
+                        <button type="submit" class="btn btn-default" id="searchBtn">Search</button>
                     </div>
                 </form>
             </div>
-<!--</body>-->   
         </div>
+<!--</body>-->   
+
         <div class="row">
             <div class="col-md-12">
-                <table class="table table-striped">
+                <table class="table table-striped" style="border: solid black 1px;">
                     <thread>
-                        <tr>
+                        <tr class="header">
                             <th>date/time</th>
                             <th>city</th>
                             <th>state</th>
@@ -52,8 +54,7 @@
                             <th>comment</th>
                         </tr>
                     </thread>
-                    <tbody>
-                    </tbody>
+                    <tbody></tbody>
                 </table>
             </div>
         </div>
